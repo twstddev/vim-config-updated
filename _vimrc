@@ -19,6 +19,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'ervandew/supertab'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
