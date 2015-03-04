@@ -20,6 +20,10 @@ Plugin 'ervandew/supertab'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 
