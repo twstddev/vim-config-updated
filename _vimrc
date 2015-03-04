@@ -9,6 +9,7 @@ call vundle#begin(path)
 Plugin 'gmarik/Vundle.vim'
 Plugin 'goatslacker/mango.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 
@@ -99,3 +100,6 @@ map <leader>l <C-w>l
 
 "Set the color scheme
 :colorscheme desert
+
+"Enable nerdtree on Ctrl + N
+map <C-n> :NERDTreeToggle<CR>
