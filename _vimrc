@@ -24,6 +24,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+Plugin 'Lokaltog/vim-easymotion'
 
 call vundle#end()
 
@@ -145,3 +146,6 @@ map <leader>tD :TernDocBrowse<CR>
 map <leader>tt :TernType<CR>
 map <leader>tr :TernRefs<CR>
 map <leader>tR :TernRename<CR>
+
+"Rebind easymotion to single leader
+map <Leader> <Plug>(easymotion-prefix)
