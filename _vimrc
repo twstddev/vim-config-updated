@@ -18,6 +18,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
 Plugin 'ervandew/supertab'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()
 
