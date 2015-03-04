@@ -7,6 +7,8 @@ let path='~/vimfiles/bundle'
 call vundle#begin(path)
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'goatslacker/mango.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
