@@ -13,6 +13,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 call vundle#end()
 
@@ -102,7 +103,7 @@ map <leader>k <C-w>k
 map <leader>l <C-w>l
 
 "Set the color scheme
-:colorscheme desert
+:colorscheme molokai
 
 "Enable nerdtree on Ctrl + N
 map <C-n> :NERDTreeToggle<CR>
@@ -110,3 +111,6 @@ map <C-n> :NERDTreeToggle<CR>
 "Javascript syntax options
 "Enable HTML/CSS highlighting in JS
 let g:javascript_enable_domhtmlcss=1
+
+"add syntax highlighting for js libraries
+let g:used_javascript_libs = 'underscore,backbone,angularjs,react,jasmine,chai'
