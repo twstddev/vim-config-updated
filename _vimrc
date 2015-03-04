@@ -10,6 +10,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'goatslacker/mango.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 call vundle#end()
 
@@ -103,3 +106,7 @@ map <leader>l <C-w>l
 
 "Enable nerdtree on Ctrl + N
 map <C-n> :NERDTreeToggle<CR>
+
+"Javascript syntax options
+"Enable HTML/CSS highlighting in JS
+let g:javascript_enable_domhtmlcss=1
