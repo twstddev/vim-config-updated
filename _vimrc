@@ -16,6 +16,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
+Plugin 'ervandew/supertab'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()
 
@@ -125,3 +127,15 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
+
+"initialize autocomplete with supertab
+let g:SuperTabContextDefaultCompletionType = "<c-n>"
+let g:SuperTabDefaultCompletionType = "context"
+set completeopt-=preview
+
+"TernJs shortcuts
+map <leader>td :TernDefPreview<CR>
+map <leader>tD :TernDocBrowse<CR>
+map <leader>tt :TernType<CR>
+map <leader>tr :TernRefs<CR>
+map <leader>tR :TernRename<CR>
