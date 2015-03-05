@@ -35,6 +35,24 @@ Plugin 'morhetz/gruvbox'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'terryma/vim-expand-region'
 Plugin 'othree/html5.vim'
+Plugin 'groenewege/vim-less'
+Plugin 'sjl/badwolf'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'ap/vim-css-color'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'rodjek/vim-puppet'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'elzr/vim-json'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'tommcdo/vim-exchange'
+Plugin 'mxw/vim-jsx'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'vim-scripts/Colour-Sampler-Pack'
 
 call vundle#end()
 
@@ -166,3 +184,6 @@ map <Leader> <Plug>(easymotion-prefix)
 
 "Gundo mapping
 nnoremap <Leader>u :GundoToggle<CR>
+
+"Json settings
+let g:vim_json_syntax_conceal = 0
