@@ -28,6 +28,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-repeat'
 
 call vundle#end()
 
