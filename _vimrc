@@ -27,6 +27,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 
