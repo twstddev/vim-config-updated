@@ -31,6 +31,7 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-repeat'
 Plugin 'sjl/gundo.vim'
 Plugin 'moll/vim-node'
+Plugin 'morhetz/gruvbox'
 
 call vundle#end()
 
