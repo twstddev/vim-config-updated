@@ -34,6 +34,7 @@ Plugin 'moll/vim-node'
 Plugin 'morhetz/gruvbox'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'terryma/vim-expand-region'
+Plugin 'othree/html5.vim'
 
 call vundle#end()
 
