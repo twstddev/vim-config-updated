@@ -33,6 +33,7 @@ Plugin 'sjl/gundo.vim'
 Plugin 'moll/vim-node'
 Plugin 'morhetz/gruvbox'
 Plugin 'AndrewRadev/splitjoin.vim'
+Plugin 'terryma/vim-expand-region'
 
 call vundle#end()
 
