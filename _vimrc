@@ -29,6 +29,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-repeat'
+Plugin 'sjl/gundo.vim'
 
 call vundle#end()
 
@@ -157,3 +158,6 @@ map <Leader> <Plug>(easymotion-prefix)
 "Make ctrlp work together with nerdtree
 let g:NERDTreeChDirMode = 2
 let g:ctrlp_working_path_mode = 'rw'
+
+"Gundo mapping
+nnoremap <Leader>u :GundoToggle<CR>
