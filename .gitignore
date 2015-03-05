@@ -3,3 +3,5 @@ _viminfo
 _vimsize
 *~
 .NERDTreeBookmarks
+config
+.cache

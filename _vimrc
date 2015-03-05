@@ -26,6 +26,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 
@@ -150,3 +151,7 @@ map <leader>tR :TernRename<CR>
 
 "Rebind easymotion to single leader
 map <Leader> <Plug>(easymotion-prefix)
+
+"Make ctrlp work together with nerdtree
+let g:NERDTreeChDirMode = 2
+let g:ctrlp_working_path_mode = 'rw'
