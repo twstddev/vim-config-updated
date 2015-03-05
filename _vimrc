@@ -32,6 +32,7 @@ Plugin 'tpope/vim-repeat'
 Plugin 'sjl/gundo.vim'
 Plugin 'moll/vim-node'
 Plugin 'morhetz/gruvbox'
+Plugin 'AndrewRadev/splitjoin.vim'
 
 call vundle#end()
 
