@@ -25,6 +25,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 
