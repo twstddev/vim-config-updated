@@ -195,3 +195,7 @@ let g:multi_cursor_quit_key='<C-c>'
 
 "User system clipboard
 set clipboard=unnamed
+
+"Make nerdtree work with ctrlp
+let g:NERDTreeChDirMode       = 2
+let g:ctrlp_working_path_mode = 'rw'
