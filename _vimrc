@@ -26,14 +26,13 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
-Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-repeat'
 Plugin 'sjl/gundo.vim'
 Plugin 'moll/vim-node'
 Plugin 'morhetz/gruvbox'
 Plugin 'AndrewRadev/splitjoin.vim'
-Plugin 'terryma/vim-expand-region'
+"Plugin 'terryma/vim-expand-region'
 Plugin 'othree/html5.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'sjl/badwolf'
@@ -53,6 +52,12 @@ Plugin 'tommcdo/vim-exchange'
 Plugin 'mxw/vim-jsx'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'vim-scripts/Colour-Sampler-Pack'
+Plugin 'zeis/vim-kolor'
+Plugin 'claco/jasmine.vim'
+Plugin 'noahfrederick/vim-hemisu'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'kien/ctrlp.vim'
+Plugin 'rking/ag.vim'
 
 call vundle#end()
 
@@ -80,9 +85,6 @@ set noeb vb t_vb=
 
 "Make backspace work like most other apps
 set backspace=2
-
-"User system clipboard
-set clipboard=unnamed
 
 "Display line numbers
 set number
@@ -178,12 +180,18 @@ map <leader>tR :TernRename<CR>
 "Rebind easymotion to single leader
 map <Leader> <Plug>(easymotion-prefix)
 
-"Make ctrlp work together with nerdtree
-"let g:NERDTreeChDirMode = 2
-"let g:ctrlp_working_path_mode = 'rw'
-
 "Gundo mapping
 nnoremap <Leader>u :GundoToggle<CR>
 
 "Json settings
 let g:vim_json_syntax_conceal = 0
+
+"Multicursor settings
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<C-c>'
+
+"User system clipboard
+set clipboard=unnamed
