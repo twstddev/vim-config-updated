@@ -58,6 +58,7 @@ Plugin 'noahfrederick/vim-hemisu'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rking/ag.vim'
+Plugin 'daylerees/colour-schemes', { 'rtp': 'vim' }
 
 call vundle#end()
 
